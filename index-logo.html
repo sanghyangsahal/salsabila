@@ -32,85 +32,8 @@
         <link rel="stylesheet" href="./css/main.css">
         <link rel="stylesheet" href="./css/main_responsive.css">
         <link rel="stylesheet" href="./css/style-color1.css">
-        <script src="./js/vendor/jquery-1.11.2.min.js"></script>
+        
         <script src="./js/vendor/modernizr-2.7.1.min.js"></script>
-        <script src="./js/typed.min.js"></script>
-        <script>
-    $(function(){
-
-        $("#typed").typed({
-            // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
-            stringsElement: $('#typed-strings'),
-            typeSpeed: 30,
-            backDelay: 500,
-            loop: true,
-            contentType: 'html', // or text
-            // defaults to false for infinite loop
-            loopCount: false,
-            callback: function(){ foo(); },
-            resetCallback: function() { newTyped(); }
-        });
-
-        $(".reset").click(function(){
-            $("#typed").typed('reset');
-        });
-
-    });
-
-    function newTyped(){ /* A new typed object */ }
-
-    function foo(){ console.log("Callback"); }
-
-    </script>
-        <style>
-        /* code for animated blinking cursor */
-        .typed-cursor{
-            opacity: 1;
-            font-weight: 100;
-            -webkit-animation: blink 0.7s infinite;
-            -moz-animation: blink 0.7s infinite;
-            -ms-animation: blink 0.7s infinite;
-            -o-animation: blink 0.7s infinite;
-            animation: blink 0.7s infinite;
-        }
-        @-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-webkit-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-moz-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-ms-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-o-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        .wrap{
-	max-width: 600px;
-	margin:150px auto;
-}
-
-
-
-.links{
-	margin:20px 0;
-	font-size: 0.75em;
-	text-align: center;
-}
-    </style>
     </head>
     <body id="menu" class="alt-bg">
         <!--[if lt IE 8]>
@@ -154,11 +77,11 @@
 					</a>
 					<span class="title">Home page</span>
 				</li>
-				<!--<li data-menuanchor="register">
+				<li data-menuanchor="register">
 					<a href="#register"><i class="icon ion ion-compose"></i>
 					</a>
 					<span class="title">Stay in touch</span>
-				</li>-->
+				</li>
 				<li data-menuanchor="about-us">
 					<a href="#about-us"><i class="icon ion ion-android-information"></i>
 					</a>
@@ -196,7 +119,6 @@
 				<i class='img' data-src='img/7.jpg'></i>
 				<i class='img' data-src='img/8.jpg'></i>
 				<i class='img' data-src='img/9.jpg'></i>
-				<i class='img' data-src='img/10.jpeg'></i>
 			</div>
             <!-- END OF Slideshow Background -->
             
@@ -245,10 +167,10 @@
 					<div class="elem-bottom">
 						<div class="deco"></div>
 						
-						<span class="days">12</span><span class="thin">Hari</span>
-						<span class="hours">18</span><span class="thin">j</span>
-						<span class="minutes">45</span><span class="thin">m</span>
-						<span class="seconds">36</span><span class="thin">d</span>
+						<span class="days">12</span><span class="thin">H</span>
+						<span class="hours">18</span><span class="thin">J</span>
+						<span class="minutes">45</span><span class="thin">M</span>
+						<span class="seconds">36</span><span class="thin">D</span>
 					</div>
 				</div> 
 				
@@ -276,19 +198,11 @@
 					<header class="header">
 						<div class="h-left">
 							<h2><strong>Salsabila</strong></h2>
-							<span id="typed" style="white-space: pre;"></span>
-							</div>
-            				<div id="typed-strings">
-			                <span>Jika Rindu Mari <strong>Bertemu</strong></span>
-			                <p>Jika Tidak!</p>
-			                <p>Kenapa Harus Saling Lupa</p>
-			                </div>
+						</div>
 						<div class="h-right">
 							<h3>Reuni<br>2005-2011</h3>
-							<h4 class="subhead"><a href="https://goo.gl/forms/G24l0XUI6Hrazbjw2" target="_blank">Registrasi Sekarang</a></h4>
+							<h4 class="subhead"><a href="#register">Registrasi Belum di buka</a></h4>
 						</div>
-
-			            
 					</header>
 				</section>
 				
@@ -308,21 +222,26 @@
            
             
             <!-- Begin of register page -->
-            <!--<div class="section page-register page page-cent"  id="s-register">
+            <div class="section page-register page page-cent"  id="s-register">
                 <section class="content">
                     <header class="p-title">
                         <h3>Register <i class="ion ion-compose"></i></h3> 
-						<!--<h4 class="subhead">Registrasi belum di buka, bersabarlah</h4>
+						<h4 class="subhead">Registrasi belum di buka, bersabarlah</h4>
                     </header>
                     <div>
-								<!--<div class="input">
+                        <!--<form id="mail-subscription" class="form magic send_email_form" method="get" action="">
+                            <p class="invite">Please, write your email below to stay in touch with us :</p>
+							<div class="fields clearfix">
+								<div class="input">
 									<label for="reg-email">Email </label>
-									<input id="reg-email" class="email_f"  name="email" type="email" required placeholder="your@email.address" data-validation-type="email">
-								</div>
+									<input id="reg-email" class="email_f"  name="email" type="email" required placeholder="your@email.address" data-validation-type="email"></div>
 								<div class="buttons">
-									<a href="https://goo.gl/forms/6aZVa78s2mW5RvyI3" target="_blank"><button class="button" name="submit_email">Daftar</button></a>
+									<button id="submit-email" class="button email_b" name="submit_email">Ok</button>
 								</div>
-                    	<p class="email-ok invisible"><strong>Thank you</strong> for your subscription. We will inform you.</p>
+							</div>
+                            
+                            <p class="email-ok invisible"><strong>Thank you</strong> for your subscription. We will inform you.</p>
+                        </form>-->
                     </div>
                 </section>
                 <footer class="p-footer p-scrolldown">
@@ -334,7 +253,7 @@
 						</div>
                     </a>                        
                 </footer>
-            </div>-->
+            </div>
             <!-- End of register page -->
             
             <!-- Begin of about us page -->
@@ -344,12 +263,12 @@
                         <h3>About Us<i class="ion ion-android-information">
                             </i>
                         </h3>
-						<h4 class="subhead">We <span class="bold">make</span> only <span class="bold">beautiful</span> things</h4>
+						<!--<h4 class="subhead">We <span class="bold">make</span> only <span class="bold">beautiful</span> things</h4>
                     </header>
                     <article class="text">
                         <p>Lorem ipsum <strong>magicum </strong>dolor sit amet, consectetur adipiscing elit. Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla.</p>
                         <p>Aenean ultricies odio at erat facilisis tincidunt. Fusce tempor auctor justo, nec facilisis quam vehicula vel. Aenean non mattis purus, eget lobortis odio. </p>
-                    </article>
+                    </article>-->
                 </section>
                 <footer class="p-footer p-scrolldown">
                     <a href="#contact">
@@ -391,7 +310,7 @@
 									<ul>
 										<li>
 											<h4>Email</h4>
-											<p><a href="mailto://reuni.salsabila@gmail.com">reuni.salsabila@gmail.com</a></p>
+											<p><a href="mailto://ahmadfuady@outlook.co.id">ahmadfuady@outlook.co.id</a></p>
 										</li>
 										<li>
 											<h4>Find us on</h4>
@@ -477,7 +396,6 @@
 						</div>
 						<!-- End Of Page SubSction -->
 					</section>
-						
 				</div>
 				<!-- End of contact message -->
             </div>
@@ -496,7 +414,7 @@
 		<!-- End of site footer -->
         <!-- All Javascript plugins goes here -->
 <!--		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>-->
-        
+        <script src="./js/vendor/jquery-1.11.2.min.js"></script>
 		<!-- All vendor scripts -->
         <script src="./js/vendor/all.js"></script>
 		
