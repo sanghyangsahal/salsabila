@@ -127,7 +127,7 @@
 		<header class=" header-top">
 			
             <div class="menu clearfix">
-                <a href="#about-us">about</a>
+                <a href="#about-us">Pelaksanaan</a>
 				
                 <!--<div class="menu-cont">
 					<p class="text">Menu cont</p>
@@ -136,7 +136,7 @@
 					</ul>
 				</div>-->
 				<!-- Add other menu similar to "about" here -->
-                <a href="#contact">contact</a>
+                <a href="#contact">Kontak</a>
             </div>
 		</header>
         <!-- END OF site header Menu-->
@@ -162,7 +162,7 @@
 				<li data-menuanchor="about-us">
 					<a href="#about-us"><i class="icon ion ion-android-information"></i>
 					</a>
-					<span class="title">About Us</span>
+					<span class="title">Pelaksanaan</span>
 				</li>
 				<!--<li data-menuanchor="contact">
 					<a href="#contact"><i class="icon ion ion-android-call"></i>
@@ -172,7 +172,7 @@
 				<li data-menuanchor="contact">
 					<a href="#contact"><i class="icon ion ion-email"></i>
 					</a>
-					<span class="title">Contact</span>
+					<span class="title">Hubungi Kami</span>
 				</li>
 			</ul>
 		</nav>
@@ -284,7 +284,7 @@
 			                <p>Kenapa Harus Saling Lupa</p>
 			                </div>
 						<div class="h-right">
-							<h3>Reuni<br>2005-2011</h3>
+							<h3>Reuni<br>2005-2011<br>HTM : 80K</h3>
 							<h4 class="subhead"><a href="https://goo.gl/forms/G24l0XUI6Hrazbjw2" target="_blank">Registrasi Sekarang</a></h4>
 						</div>
 
@@ -341,14 +341,19 @@
             <div class="section page-about page page-cent" id="s-about-us">
                 <section class="content">
                     <header class="p-title">
-                        <h3>About Us<i class="ion ion-android-information">
+                        <h3>Waktu & Pelaksanaan<i class="ion ion-android-information">
                             </i>
                         </h3>
-						<h4 class="subhead">We <span class="bold">make</span> only <span class="bold">beautiful</span> things</h4>
+						<h4 class="subhead">Tempat</h4>
                     </header>
                     <article class="text">
-                        <p>Lorem ipsum <strong>magicum </strong>dolor sit amet, consectetur adipiscing elit. Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla.</p>
-                        <p>Aenean ultricies odio at erat facilisis tincidunt. Fusce tempor auctor justo, nec facilisis quam vehicula vel. Aenean non mattis purus, eget lobortis odio. </p>
+                        <p>Cibiru (Belum Fix)</p>
+                    </article>
+                    <header class="p-title">
+                    	<h4 class="subhead">Tanggal</h4>
+                    </header>
+                    <article class="text">
+                        <p><b>11 Maret 2017</b></p>
                     </article>
                 </section>
                 <footer class="p-footer p-scrolldown">
@@ -369,7 +374,7 @@
 				<div class="slide" id="s-information" data-anchor="information">
 					<section class="content">
 						<header class="p-title">
-							<h3>Contact<i class="ion ion-location">
+							<h3>Hubungi Kami<i class="ion ion-location">
 								</i>
 							</h3>
 							<ul class="buttons">
@@ -392,6 +397,10 @@
 										<li>
 											<h4>Email</h4>
 											<p><a href="mailto://reuni.salsabila@gmail.com">reuni.salsabila@gmail.com</a></p>
+										</li>
+										<li>
+											<h4>Phone</h4>
+											<p>08562113932 - </p>
 										</li>
 										<li>
 											<h4>Find us on</h4>
