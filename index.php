@@ -183,12 +183,12 @@
         <!-- BEGIN OF site cover -->
         <div class="page-cover" id="s-cover">
             <!-- Cover Background -->
-            <!--<div class="cover-bg pos-abs full-size bg-img" data-image-src="img/bg-default.jpg"></div>-->
+            <!--<div class="cover-bg pos-abs full-size bg-img" data-image-src="#"></div>-->
 			
             <!-- BEGIN OF Slideshow Background -->
             <div class="cover-bg pos-abs full-size slide-show">
-				<i class='img' data-src='https://drive.google.com/open?id=0BxnDPJd7JlPFX3ZPcWl3TjhlVG8'></i>
-				<i class='img' data-src='https://drive.google.com/open?id=0BxnDPJd7JlPFNTFnVHRXZHJjNXM'></i>
+				<i class='img' data-src='img/1.jpg'></i>
+				<i class='img' data-src='img/2.jpg'></i>
 				<!--<i class='img' data-src='img/3.jpg'></i>
 				<i class='img' data-src='img/4.jpg'></i>
 				<i class='img' data-src='img/5.jpg'></i>
@@ -353,7 +353,7 @@
                     	<h4 class="subhead">Tanggal</h4>
                     </header>
                     <article class="text">
-                        <p><b>11 Maret 2017</b></p>
+                        <p><b>12 Maret 2017</b></p>
                     </article>
                 </section>
                 <footer class="p-footer p-scrolldown">
