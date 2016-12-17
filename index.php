@@ -189,8 +189,8 @@
             <div class="cover-bg pos-abs full-size slide-show">
 				<i class='img' data-src='img/1.jpg'></i>
 				<i class='img' data-src='img/2.jpg'></i>
-				<!--<i class='img' data-src='img/3.jpg'></i>
-				<i class='img' data-src='img/4.jpg'></i>
+				<i class='img' data-src='img/3.jpg'></i>
+				<!--<i class='img' data-src='img/4.jpg'></i>
 				<i class='img' data-src='img/5.jpg'></i>
 				<i class='img' data-src='img/6.jpg'></i>
 				<i class='img' data-src='img/7.jpg'></i>
