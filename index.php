@@ -187,16 +187,16 @@
 			
             <!-- BEGIN OF Slideshow Background -->
             <div class="cover-bg pos-abs full-size slide-show">
-				<i class='img' data-src='img/1.jpg'></i>
-				<i class='img' data-src='img/2.jpg'></i>
-				<i class='img' data-src='img/3.jpg'></i>
+				<i class='img' data-src='https://drive.google.com/open?id=0BxnDPJd7JlPFX3ZPcWl3TjhlVG8'></i>
+				<i class='img' data-src='https://drive.google.com/open?id=0BxnDPJd7JlPFNTFnVHRXZHJjNXM'></i>
+				<!--<i class='img' data-src='img/3.jpg'></i>
 				<i class='img' data-src='img/4.jpg'></i>
 				<i class='img' data-src='img/5.jpg'></i>
 				<i class='img' data-src='img/6.jpg'></i>
 				<i class='img' data-src='img/7.jpg'></i>
 				<i class='img' data-src='img/8.jpg'></i>
 				<i class='img' data-src='img/9.jpg'></i>
-				<i class='img' data-src='img/10.jpeg'></i>
+				<i class='img' data-src='img/10.jpeg'></i>-->
 			</div>
             <!-- END OF Slideshow Background -->
             
