@@ -182,38 +182,14 @@
 
         <!-- BEGIN OF site cover -->
         <div class="page-cover" id="s-cover">
-            <!-- Cover Background -->
-            <!--<div class="cover-bg pos-abs full-size bg-img" data-image-src="#"></div>-->
-			
             <!-- BEGIN OF Slideshow Background -->
             <div class="cover-bg pos-abs full-size slide-show">
 				<i class='img' data-src='img/1.jpg'></i>
 				<i class='img' data-src='img/2.jpg'></i>
 				<i class='img' data-src='img/3.jpg'></i>
-				<!--<i class='img' data-src='img/4.jpg'></i>
-				<i class='img' data-src='img/5.jpg'></i>
-				<i class='img' data-src='img/6.jpg'></i>
-				<i class='img' data-src='img/7.jpg'></i>
-				<i class='img' data-src='img/8.jpg'></i>
-				<i class='img' data-src='img/9.jpg'></i>
-				<i class='img' data-src='img/10.jpeg'></i>-->
 			</div>
             <!-- END OF Slideshow Background -->
-            
-            <!--BEGIN OF Static video bg  - uncomment below to use Video as Background-->
-            <!--<div id="container" class="video-container show-for-medium-up">
-                <video autoplay="autoplay" loop="loop" autobuffer="autobuffer" muted="muted"
-                       width="640" height="360">
-                    <source src="vid/flower_loop.mp4" type="video/mp4">
-                </video>
-            </div>-->
-            <!--END OF Static video bg-->
-			
-			<!-- Solid color as background -->
-<!--            <div class="cover-bg pos-abs full-size bg-color" data-bgcolor="#3151ff"></div>-->
-			
-			<!-- Solid color as filter -->
-            <div class="cover-bg-mask pos-abs full-size bg-color" data-bgcolor="rgba(0, 0, 0, 0.41)"></div>
+		<div class="cover-bg-mask pos-abs full-size bg-color" data-bgcolor="rgba(0, 0, 0, 0.41)"></div>
             
         </div>
         <!--END OF site Cover -->
