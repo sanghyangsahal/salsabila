@@ -344,16 +344,21 @@
                         <h3>Waktu & Pelaksanaan<i class="ion ion-android-information">
                             </i>
                         </h3>
-						<h4 class="subhead">Tempat</h4>
+						<p>Mari bertukar cerita<br>
+						   setelah sekian lama tak berjumpa.<br>
+						   atau bertatap muka lalu bertukar sapa <br>walau hanya sebentar saja. <br>
+						   sebab ini adalah rindu, <br>
+						   tak ada perumpamaan baginya<br><b> kecuali pertemuan</b>.</p>
                     </header>
+                    <h4 class="subhead">Tempat</h4>
                     <article class="text">
-                        <p>Cibiru (Belum Fix)</p>
+                        <p><b>Cibiru</b>, Bandung, Jawa Barat. </p>
                     </article>
                     <header class="p-title">
                     	<h4 class="subhead">Tanggal</h4>
                     </header>
                     <article class="text">
-                        <p><b>12 Maret 2017</b></p>
+                        <p>Minggu, <b>12 </b>Maret 2017</p>
                     </article>
                 </section>
                 <footer class="p-footer p-scrolldown">
