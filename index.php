@@ -317,9 +317,9 @@
             <div class="section page-about page page-cent" id="s-about-us">
                 <section class="content">
                     <header class="p-title">
-                        <h3>Waktu & Pelaksanaan<i class="ion ion-android-information">
+                        <h4>Waktu & Pelaksanaan<i class="ion ion-android-information">
                             </i>
-                        </h3>
+                        </h4>
 						<p>Mari bertukar cerita<br>
 						   setelah sekian lama tak berjumpa.<br>
 						   atau bertatap muka lalu bertukar sapa <br>walau hanya sebentar saja. <br>
