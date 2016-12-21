@@ -317,14 +317,13 @@
             <div class="section page-about page page-cent" id="s-about-us">
                 <section class="content">
                     <header class="p-title">
-                        <h4>Waktu & Pelaksanaan<i class="ion ion-android-information">
+                        <h3>Waktu & Pelaksanaan<i class="ion ion-android-information">
                             </i>
-                        </h4>
-						<p>Mari bertukar cerita<br>
-						   setelah sekian lama tak berjumpa.<br>
+                        </h3>
+						<p>Mari bertukar cerita setelah sekian lama tak berjumpa.<br>
 						   atau bertatap muka lalu bertukar sapa <br>walau hanya sebentar saja. <br>
-						   sebab ini adalah rindu, <br>
-						   tak ada perumpamaan baginya<br><b> kecuali pertemuan</b>.</p>
+						   sebab ini adalah rindu, tak ada perumpamaan baginya<br>
+							<b> kecuali pertemuan</b>.</p>
                     </header>
                     <h4 class="subhead">Tempat</h4>
                     <article class="text">
