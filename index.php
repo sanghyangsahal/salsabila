@@ -328,7 +328,7 @@
                     </header>
                     <h4 class="subhead">Tempat</h4>
                     <article class="text">
-                        <p><b>Villa Bukit Cipulus</b><br />Cibiru, Bandung, Jawa Barat. </p>
+                        <p><b>Pondok Cipulus</b><br />Kp. Cipulus Rt. 02/10 Ds.Cisurupan <br />Kec. Cibiru, Bandung, Jawa Barat. </p>
                     </article>
                     <header class="p-title">
                     	<h4 class="subhead">Tanggal</h4>
